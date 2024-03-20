@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0D1117;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #30363D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #30363D;
+}
+
+.profile,
+.repos,
+.search-history {
+    margin-top: 20px;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+
+th {
+    background-color: black;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: white;
+    color: aliceblue;
+}
+
+.navbar {
+    background-color: #1B1F23;
+    color: #fff;
+    padding: 0 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar img {
+    width: 60px;
+    height: auto;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}

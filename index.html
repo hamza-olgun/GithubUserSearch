@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub User Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt="GitHub Logo">
+        </div>
+    </nav>
+    <div class="container">
+        <h1>GitHub User Search</h1>
+        <input type="text" id="searchInput" placeholder="GitHub Username">
+        <button onclick="search()">Search</button>
+        <div id="profile" class="profile"></div>
+        <div id="repos" class="repos"></div>
+        <div id="searchHistory" class="search-history"></div>
+        <button onclick="clearScreen()">Clear</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
