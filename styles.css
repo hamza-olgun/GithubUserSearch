@@ -31,7 +31,7 @@ button {
 }
 
 button:hover {
-    background-color: #30363D;
+    background-color: wihte;
 }
 
 .profile,
@@ -54,8 +54,7 @@ th {
 }
 
 tr:hover {
-    background-color: white;
-    color: aliceblue;
+    background-color: black;
 }
 
 .navbar {
